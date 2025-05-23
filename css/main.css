@@ -1,0 +1,46 @@
+/* ملف style.css */
+
+/* تعيين الخط العام والخلفية */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* تنسيق رأس الصفحة */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* تنسيق العناوين */
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* تنسيق الفقرات */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* تنسيق الروابط */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق زر بسيط */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745
